@@ -4,7 +4,8 @@ Marrom:#944811
 Verde:#43893F
 Verde Escuro:#002400
 Branco:#F3E2E2
-Rosa:#f5f0f0
+Rosa:#a70e55
+#f5f0f0;
 */
 
 *{
@@ -59,4 +60,45 @@ div#formulario > h1{
 div#formulario > p{
     font-size: 13px;
     padding: 10px;
+}
+
+form > input[type=submit]{
+    display: block;
+    border: 5px;
+    margin: 5px;
+    margin-top: 10px;
+    padding: 5%;
+    width: 95%;
+    height: 40px;
+
+    font-size: 1em;
+    background-color:#a70e55;
+    color: #f5f0f0;
+    border-radius: 5px;
+}
+form > input[type=submit]:hover{
+    background-color: #57072c;
+    cursor: pointer;
+}
+
+form > a.botao{
+    display: block;
+    border: 1px solid #a70e55;
+    margin: 5px;
+    padding: 5%;
+    padding-top: 10px;
+    width: 95%;
+    height: 40px;
+
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    background-color:#f5f0f0;
+    color: #a70e55;
+    border-radius: 5px;
+}
+form > a.botao:hover{
+    background-color: #57072c;
+    color: #f5f0f0;
+    cursor: pointer;
 }
