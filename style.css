@@ -1,11 +1,60 @@
 @charset "UTF-8";
+/*Paleta de cores:
+Marrom:#944811
+Verde:#43893F
+Verde Escuro:#002400
+Branco:#F3E2E2
+Rosa:#f5f0f0
+*/
 
-:root{
-    --cor0: #ffff
-    --cor1: #0000 
-    --cor2:
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
-* {
-    background-color: var(--cor1);
+body, html{
+    background-color: #002400;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color:#f5f0f0;
+    width: 260px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px #011801;
+
+}
+section#login > div#imagem{
+    display: block;
+    background-color: #002400;
+    background-image: url(./imagem.tulipas-jpg.jpg);
+    height: 200px;
+    background-position: left;
+}
+section#login > div#formulario{
+    color: #033503;
+    display: block;
+    padding: 5px;
+}
+section#login > div#formulario > h1{
+    text-align: center;
+    padding-top: 6px;
+}
+section#login > div#formulario > p{
+    font-size: 13.5px;
+    padding: 10px;
 }
