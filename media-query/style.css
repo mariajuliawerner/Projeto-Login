@@ -19,9 +19,6 @@
         width: 65%;
         height: 100%;
     }
-    section#login > div#formulário > p {
-        padding-left: 10px;
-    }
 }
 @media screen and (min-width: 992px) /*dispositivos grandes e desktop*/{
        body {
