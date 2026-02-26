@@ -1,5 +1,11 @@
 @charset "UTF-8";
-/* 
-Cores:
 
+:root{
+    --cor0: #ffff
+    --cor1: #0000 
+    --cor2:
+}
 
+* {
+    background-color: var(--cor1);
+}
